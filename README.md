@@ -54,5 +54,5 @@ Work in progress — this is Project 1 of a 3-project data portfolio currently u
 
 ## Author
 
-Sri Kasiviswanathan — Data Analyst | Brisbane, QLD  
+Sri Kasi M — Data Analyst | Brisbane, QLD  
 github.com/srikasi
