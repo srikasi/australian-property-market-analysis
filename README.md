@@ -56,5 +56,5 @@ This system represents **Project 1** of a 3-project computational portfolio curr
 
 ---
 
-**Author:** Dr. Sri Kasi Matta — Technical Data Professional | Brisbane, QLD  
+**Author:** Sri Kasi Matta — Technical Data Professional | Brisbane, QLD  
 [github.com/srikasi](https://github.com)
