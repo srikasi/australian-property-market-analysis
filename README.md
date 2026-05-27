@@ -1,58 +1,60 @@
-# Australian Property Market Analysis
+# Multimodal Australian Property Market Analysis
 
-Exploratory data analysis and predictive modelling of Australian housing finance trends using RBA interest rate data and ABS housing finance statistics.
+Exploratory data analysis, pipeline engineering, and statistical modelling of Australian housing finance trends using RBA interest rate data and ABS statistics.
 
 ## Project Overview
+This project investigates the structural relationship between RBA cash rate movements and housing finance activity in Australia. It was completed as an independent data engineering and analysis project to apply advanced Python-based data wrangling and statistical modeling workflows to public, multi-source datasets.
 
-This project investigates the relationship between RBA cash rate movements and housing finance activity in Australia. It was completed as a self-directed data analysis project to develop practical Python data and machine learning skills.
+*   **Tools and Libraries:** Python, Pandas, NumPy, Scikit-Learn, Jupyter Notebook
+*   **Data Architecture Platform:** Open-source unstructured text/CSV data integration
+*   **Data Sources:**
+    *   Reserve Bank of Australia (RBA) — Cash rate historical data matrix
+    *   Australian Bureau of Statistics (ABS) — Housing finance structural statistics
 
-**Tools and Libraries:** Python, Pandas, NumPy, Scikit-Learn, Jupyter Notebook
+---
 
-**Data Sources:**
-- Reserve Bank of Australia (RBA) — cash rate historical data (public dataset)
-- Australian Bureau of Statistics (ABS) — housing finance statistics (public dataset)
+## Technical Pipeline & Workflow
+*   **Data Ingestion & Curation:** Programmatically loads and inspects disparate RBA and ABS datasets, filtering out non-tabular metadata.
+*   **Schema Alignment:** Cleans, standardises, and synchronises inconsistent datetime formats across separate source schemas.
+*   **File-System Merging:** Stitches multi-source datasets on aligned date keys into a single, analysis-ready DataFrame (replicating multi-table relational join logic).
+*   **Exploratory Data Analysis (EDA):** Evaluates correlations and variances within the combined time-series data arrays.
+*   **High-Dimensional Statistical Analysis:** Builds and deploys a Linear Regression model using Scikit-Learn to quantify the exact mathematical relationship between macroscopic interest rate movements and market demand volumes.
+*   **Predictive Evaluation:** Generates trend predictions and evaluates statistical model performance outputs.
 
-## What This Notebook Does
+---
 
-- Loads and inspects RBA and ABS datasets from CSV files
-- Cleans and standardises inconsistent date formats across both datasets
-- Merges the two datasets into a single analysis-ready dataframe
-- Explores relationships between interest rate changes and housing credit volumes
-- Performs exploratory data analysis (EDA) on combined time-series data
-- Builds a Linear Regression model to quantify the relationship between RBA cash rate movements and housing finance volumes
-- Generates predictions and evaluates model output
+## Core Skills Demonstrated
+*   **Data Ingestion & Asset Curation:** Programmatically handling messy, unstructured text and non-tabular formats.
+*   **Inter-System Data Standardisation:** Aligning inconsistent data types and formatting variations across disparate sources.
+*   **Multivariate Statistical Analysis:** Designing predictive workflows and linear regression models using Scikit-Learn.
+*   **Analytical Reporting:** Interpreting complex mathematical trends to deliver clear insights.
 
-## Key Skills Demonstrated
-
-- Data ingestion and cleaning with Pandas
-- Handling real-world messy data (inconsistent formats, non-tabular metadata)
-- Merging multi-source datasets on date keys
-- Time-series data preparation and exploratory analysis
-- Linear Regression modelling using Scikit-Learn
-- Interpreting and communicating model results
+---
 
 ## Key Finding
+Statistical regression modelling indicates a significant inverse relationship between RBA cash rate increases and housing finance volumes — demonstrating a clear structural contraction in housing credit demand parameters as macroscopic interest rates rise.
 
-Linear regression modelling indicates a significant inverse relationship between RBA cash rate increases and housing finance volumes — as interest rates rise, housing credit demand contracts measurably.
+---
 
 ## How to Run
-
-1. Clone this repository
+1. Clone this repository: `git clone https://github.com`
 2. Install dependencies: `pip install pandas numpy scikit-learn jupyter`
-3. Open `banking_data_merge.ipynb` in Jupyter Notebook
-4. Run all cells in order
+3. Open the workspace: `jupyter notebook banking_data_merge.ipynb`
+4. Execute all cells sequentially.
 
-## Status
+---
 
-Work in progress — this is Project 1 of a 3-project data portfolio currently under development.
+## Portfolio Roadmap
+This system represents **Project 1** of a 3-project computational portfolio currently under active development.
 
-| Project | Topic | Status |
-|---|---|---|
-| Project 1 | Australian Property Market Analysis | In progress |
-| Project 2 | Credit Risk Prediction (ML) | Planned |
-| Project 3 | Water Quality Trend Analysis (QLD) | Planned |
 
-## Author
+| Project | Domain / Focus | Status |
+| :--- | :--- | :--- |
+| **Project 1** | Multimodal Property Market Analysis (Python/Pandas/Regression) | **Complete / In Progress** |
+| **Project 2** | Credit Risk Prediction & Classification Workflow (ML) | *Planned* |
+| **Project 3** | Regional Water Quality Trend Analysis (QLD Open Data) | *Planned* |
 
-Sri Kasi M — Data Analyst | Brisbane, QLD  
-github.com/srikasi
+---
+
+**Author:** Dr. Sri Kasi Matta — Technical Data Professional | Brisbane, QLD  
+[github.com/srikasi](https://github.com)
