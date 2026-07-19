@@ -12,6 +12,8 @@ This project investigates the structural relationship between RBA cash rate move
     *   Australian Bureau of Statistics (ABS) — Housing finance structural statistics
 
 ---
+![Australian Property Market Dashboard](dashboard.png)
+
 
 ## Technical Pipeline & Workflow
 *   **Data Ingestion & Curation:** Programmatically loads and inspects disparate RBA and ABS datasets, filtering out non-tabular metadata.
